@@ -1,0 +1,6 @@
+app/code/local/MageProfis/NutritionInfo/                                            app/code/local/MageProfis/NutritionInfo/
+app/design/frontend/base/default/layout/mageprofis-nutritioninfo.xml                app/design/frontend/base/default/layout/mageprofis-nutritioninfo.xml
+app/design/frontend/base/default/template/catalog/product/view/nutritioninfo.phtml  app/design/frontend/base/default/template/catalog/product/view/nutritioninfo.phtml
+app/etc/modules/MageProfis_NutritionInfo.xml                                        app/etc/modules/MageProfis_NutritionInfo.xml
+app/locale/de_DE/MageProfis_NutritionInfo.csv                                       app/locale/de_DE/MageProfis_NutritionInfo.csv
+skin/frontend/base/default/css/mageprofis/nutritioninfo.css                         skin/frontend/base/default/css/mageprofis/nutritioninfo.css

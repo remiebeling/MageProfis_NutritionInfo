@@ -1,0 +1,23 @@
+.box-collateral.box-nutrition {
+    padding:0;
+}
+.box-collateral.box-nutrition h2 {
+    margin:0;
+    border-bottom:0;
+}
+.box-collateral.box-nutrition .data-table {
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    margin-bottom:0;
+}
+.box-collateral.box-nutrition .data-table > tbody > tr > th {
+    border-left:0;
+}
+.box-collateral.box-nutrition .data-table > tbody > tr > td {
+    border-right:0;
+}
+.data-table>tbody>tr.last>th,
+.data-table>tbody>tr.last>td {
+    border-bottom:0;
+}

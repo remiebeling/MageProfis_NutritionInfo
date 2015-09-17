@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addCss">
+                <file>css/mageprofis/nutritioninfo.css</file>
+            </action>
+        </reference>
+        <reference name="product.info">
+            <block type="nutritioninfo/nutrition" name="nutrition.info" as="nutrition" template="catalog/product/view/nutritioninfo.phtml">
+                <action method="addToParentGroup"><group>detailed_info</group></action>
+            </block>
+        </reference>
+    </catalog_product_view>
+</layout>
