@@ -38,24 +38,6 @@ $installer->addAttribute('catalog_product', 'calories', array(
     'used_in_product_listing'       => 1,
 ));
 
-$installer->addAttribute('catalog_product', 'calories', array(
-    'group'                         => 'Nährwertangaben',
-    'label'                         => 'kCal',
-    'type'                          => 'text',
-    'input'                         => 'text',
-    'visible'                       => true,
-    'required'                      => false,
-    'user_defined'                  => true,
-    'searchable'                    => false,
-    'filterable'                    => false,
-    'comparable'                    => false,
-    'visible_on_front'              => true,
-    'visible_in_advanced_search'    => false,
-    'unique'                        => false,
-    'global'                        => Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_STORE,
-    'used_in_product_listing'       => 1,
-));
-
 $installer->addAttribute('catalog_product', 'fat', array(
     'group'                         => 'Nährwertangaben',
     'label'                         => 'Fett',
